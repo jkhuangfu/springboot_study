@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.jk.controller.UserController",
+      "sourceType": "com.jk.controller.UserController"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

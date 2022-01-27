@@ -1,0 +1,7 @@
+com/jk/config/Beans.class
+com/jk/mapper/UserMapper.class
+com/jk/controller/UserController.class
+com/jk/service/IUserService.class
+com/jk/service/impl/UserService.class
+com/jk/JkApplication.class
+com/jk/entity/User.class
