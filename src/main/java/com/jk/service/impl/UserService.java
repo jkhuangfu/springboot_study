@@ -1,5 +1,6 @@
 package com.jk.service.impl;
 
+import com.jk.annotations.myAdvice;
 import com.jk.dao.UserDao;
 import com.jk.entity.User;
 import com.jk.service.IUserService;
@@ -26,6 +27,7 @@ public class UserService implements IUserService {
   }
 
   @Override
+  @myAdvice
   public List<User> queryAllUser() {
     return userDao.queryAllUser();
   }

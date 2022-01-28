@@ -12,6 +12,7 @@
     <artifactId>jk</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>jk</name>
+    <packaging>jar</packaging>
     <description>jk</description>
     <properties>
         <java.version>1.8</java.version>
@@ -45,6 +46,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
+        </dependency>
+        <!--AOP依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
         <!--热更新依赖-->
         <dependency>
