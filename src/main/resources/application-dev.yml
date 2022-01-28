@@ -4,11 +4,11 @@ server:
     context-path: /test
 spring:
   datasource:
-    #    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/blog?useSSL=false&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&serverTimezone=Asia/Shanghai
     username: root
     password: huangfu@1993
-    driver-class-name: com.mysql.jdbc.Driver
+#    driver-class-name: com.mysql.jdbc.Driver
 mybatis:
   mapper-locations: classpath:mapper/**/*.xml #指定mapper配置文件
 #  type-aliases-package: com.jk.entity #指定实体类包名
